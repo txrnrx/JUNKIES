@@ -1,0 +1,12 @@
+.table-n{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: aliceblue;
+    height: 70vh;
+    width: 70vw;
+    background-image: url(../image/Leonardo_Diffusion_XL_space_cookies_with_colorful_image_and_g_0\ \(1\).jpg);
+    border-radius: 1rem;
+    padding: 20px;
+    background-position: center;
+    margin-top: 4%;
+    margin-left: 20%;
+}

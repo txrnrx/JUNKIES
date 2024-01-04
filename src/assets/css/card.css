@@ -1,0 +1,378 @@
+
+
+.carda {
+  display: flex;
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+  transition: 1s ease-out;
+  position: relative;
+  left: 0px;
+  background-image: url(../image/photo-of-one-delicious-donut-with-topping-top-view-isolated-on-a-transparent-background-free-png.png);
+  background-size: cover; /* Maintain aspect ratio and cover the entire container */
+  background-position: center; /* Center the background image */
+}
+.carda:not(:first-child) {
+  margin-left: -50px;
+}
+.carda:hover {
+  transform: translateY(-50px);
+  transition: 0.4s ease-out;
+  background-image: url(../image/Cookie0106-skill1_back.webp);
+  background-image: url(../image/photo-of-one-delicious-donut-with-topping-top-view-isolated-on-a-transparent-background-free-png.png);
+}
+.carda:active {
+  background-image: url(../image/Cookie0106-skill1_back.webp);
+}
+.carda:hover ~ .carda {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+  background-size: cover;
+}
+.cardb {
+  display: flex;
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+  transition: 1s ease-out;
+  position: relative;
+  left: 0px;
+  background-image: url(../image/card2.png);
+  background-size: cover; /* Maintain aspect ratio and cover the entire container */
+  background-position: center; /* Center the background image */
+}
+.cardb:not(:first-child) {
+  margin-left: -50px;
+}
+.cardb:hover {
+  transform: translateY(-50px);
+  transition: 0.4s ease-out;
+  background-image: url(../image/Cookie0106-skill1_back.webp);
+  background-image: url(../image/card2.png);
+}
+
+.cardb:hover ~ .cardb {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+  background-size: cover;
+}
+.cardb:active {
+  background-image: url(../image/Cookie0106-skill1_back.webp);
+}
+.cardc {
+  display: flex;
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+  transition: 1s ease-out;
+  position: relative;
+  left: 0px;
+  background-image: url(../image/pngtree-gingerbread-man-cookie-cartoon-transparent-png-image_9132939.png);
+  background-size: cover; /* Maintain aspect ratio and cover the entire container */
+  background-position: center; /* Center the background image */
+}
+.cardc:not(:first-child) {
+  margin-left: -50px;
+}
+.cardc:hover {
+  transform: translateY(-50px);
+  transition: 0.4s ease-out;
+  background-image: url(../image/Cookie0106-skill1_back.webp);
+  background-image: url(../image/pngtree-gingerbread-man-cookie-cartoon-transparent-png-image_9132939.png);
+}
+.cardc:active {
+  background-image: url(../image/Cookie0106-skill1_back.webp);
+}
+
+.cardc:hover ~ .cardc {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+  background-size: cover;
+}
+.cardd {
+  display: flex;
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+  transition: 1s ease-out;
+  position: relative;
+  left: 0px;
+  background-image: url(../image/Default_SINGLE_COOKIE_IMAGE_WITH_NO_BACKGROUND_0_acaf75e1-c35a-48e1-800d-46bdada4312d_0.png);
+  background-size: cover; /* Maintain aspect ratio and cover the entire container */
+  background-position: center; /* Center the background image */
+}
+.cardd:not(:first-child) {
+  margin-left: -50px;
+}
+.cardd:hover {
+  transform: translateY(-50px);
+  transition: 0.4s ease-out;
+  background-image: url(../image/Cookie0106-skill1_back.webp);
+  background-image: url(../image/Default_SINGLE_COOKIE_IMAGE_WITH_NO_BACKGROUND_0_acaf75e1-c35a-48e1-800d-46bdada4312d_0.png);
+}
+.cardd:active {
+  background-image: url(../image/Cookie0106-skill1_back.webp);
+}
+
+.cardd:hover ~ .cardd {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+  background-size: cover;
+}
+.carde {
+  display: flex;
+  height: 310px;
+  width: 200px;
+  border-radius: 10px;
+  transition: 1s ease-out;
+  position: relative;
+  left: 0px;
+  background-image: url(../image/Default_SINGLE_BIG_ROUND_LINZER_COOKIE_WHERE_THE_INSIDE_IS_FI_0_a1211dfb-e171-4327-9716-f248990f8a68_0.png);
+  background-size: cover; /* Maintain aspect ratio and cover the entire container */
+  background-position: center; /* Center the background image */
+}
+.carde:not(:first-child) {
+  margin-left: -50px;
+}
+.carde:hover {
+  transform: translateY(-50px);
+  transition: 0.4s ease-out;
+  background-image: url(../image/Cookie0106-skill1_back.webp);
+  background-image: url(../image/Default_SINGLE_BIG_ROUND_LINZER_COOKIE_WHERE_THE_INSIDE_IS_FI_0_a1211dfb-e171-4327-9716-f248990f8a68_0.png);
+}
+
+.carde:active {
+  background-image: url(../image/Cookie0106-skill1_back.webp);
+}
+.carde:hover ~ .carde {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+  background-size: cover;
+}
+.containerr {
+  position: absolute;
+  height: 600px;
+  width: 780px;
+  top: 60px;
+  left: calc(50% - 340px);
+  display: flex;
+  margin-top: 20%;
+}
+
+.card {
+  display: flex;
+  height: 500px;
+  width: 200px;
+  border-radius: 10px;
+  transition: 1s ease-out;
+  position: relative;
+  left: 0px;
+  background-image: url(../image/photo-of-one-delicious-donut-with-topping-top-view-isolated-on-a-transparent-background-free-png.png);
+  background-size: cover; /* Maintain aspect ratio and cover the entire container */
+  background-position: center; /* Center the background image */
+}
+.card:not(:first-child) {
+  margin-left: -50px;
+}
+
+.card:hover {
+  transform: translateY(-50px);
+  transition: 0.4s ease-out;
+  background-image: url(../image/Cookie0106-skill1_back.webp);
+  background-image: url(../image/photo-of-one-delicious-donut-with-topping-top-view-isolated-on-a-transparent-background-free-png.png);
+}
+
+.card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+  background-size: cover;
+}
+
+.title {
+  color: white;
+  font-weight: 300;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+
+
+@-webkit-keyframes slidein {
+  0% {
+    top: -400px;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
+}
+@keyframes slidein {
+  0% {
+    top: -400px;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
+}
+@-webkit-keyframes slideout {
+  0% {
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: -400px;
+    opacity: 0;
+  }
+}
+@keyframes slideout {
+  0% {
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: -400px;
+    opacity: 0;
+  }
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  align-content: stretch;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+}
+.list li.item input[type=radio] {
+  display: none;
+}
+.list li.item input[type=radio] ~ label {
+  display: block;
+  opacity: 0.5;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+.list li.item input[type=radio] ~ label:first-letter {
+  text-transform: uppercase;
+}
+.list li.item input[type=radio] ~ label:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+.list li.item input[type=radio] ~ label.label_one:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 500px;
+  height: 50px;
+  margin-left: 15px;
+}
+.list li.item input[type=radio] ~ label.label_two:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+}
+.list li.item input[type=radio] ~ label.label_three:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+}
+.list li.item input[type=radio] ~ label.label_four:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+}
+.list li.item input[type=radio] ~ .content {
+  position: absolute;
+  left: 350px;
+  top: -400px;
+  width: 650px;
+  height: 400px;
+  -webkit-animation-duration: 0.75s;
+          animation-duration: 0.75s;
+  -webkit-animation-name: slideout;
+          animation-name: slideout;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.list li.item input[type=radio] ~ .content p {
+  max-width: 50%;
+  text-align: center;
+}
+.list li.item input[type=radio]:checked ~ label {
+  opacity: 1;
+  -webkit-animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.list li.item input[type=radio]:checked ~ label.label_one {
+  color: #D64541;
+  border-right: solid 4px #D64541;
+
+  background: #ffffff;
+box-shadow:  6px 6px 12px #d1d1d1,
+             -6px -6px 12px #ffffff;
+}
+.list li.item input[type=radio]:checked ~ label.label_two {
+  color: #F5D76E;
+  border-right: solid 4px #F5D76E;
+
+  box-shadow:  6px 6px 12px #d1d1d1,
+  -6px -6px 12px #ffffff;
+}
+.list li.item input[type=radio]:checked ~ label.label_three {
+  color: #00B16A;
+  border-right: solid 4px #00B16A;
+
+  box-shadow:  6px 6px 12px #d1d1d1,
+  -6px -6px 12px #ffffff;
+}
+.list li.item input[type=radio]:checked ~ label.label_four {
+  color: #F27935;
+  border-right: solid 4px #F27935;
+  
+  box-shadow:  6px 6px 12px #d1d1d1,
+  -6px -6px 12px #ffffff;
+
+}
+.list li.item input[type=radio]:checked ~ .content {
+  -webkit-animation-duration: 0.75s;
+          animation-duration: 0.75s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+#right-zone {
+  background: rgb(32, 32, 32);
+  height: 100%;
+  flex-grow: 3;
+}

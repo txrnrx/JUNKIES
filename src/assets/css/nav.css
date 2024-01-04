@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url(../image/fdb21c0e4f3dbb6ccd9a63c68fce8645.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.header-area-navbar {
+    margin-top: -7%;
+    margin-left: 0.5%;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.5));
+    position: sticky;
+    border-radius: 2rem;
+    z-index: 100; /* Set a higher z-index to keep it above other elements */
+}
+
+.nav-links-navbar {
+    display: flex;
+    justify-content: space-around;
+    transition: 0.4s ease-out;
+    align-items: center;
+    background-image: url(../image/fdb21c0e4f3dbb6ccd9a63c68fce8645.gif);
+    border-radius: 1rem;
+    width: 99%;
+}
+
+p {
+    color: black;
+}
+p:hover{
+    color: white;
+}
+.nav-links-navbar:hover {
+    transition: 0.4s ease-out;
+    background-image: url(../image/a1.jpg);
+}
+
+nav p img {
+    width: 60px;
+}
+
+.nav-links-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.nav-links-navbar .center-navbar {
+    margin: 2px auto;
+    text-align: center;
+    transition: background-image 0.5s;
+    justify-content: center;
+    flex: 1;
+}
+
+.nav-links-navbar li {
+    list-style: none;
+    margin: 10px 12px;
+}
+.nav-links-navbar li a:hover{
+  color: azure;
+}
+.nav-links-navbar li a {
+    position: relative;
+    color: #e2c3f3;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 6px 0;
+    text-decoration: none;
+    text-shadow: 0px 0px 10px #f5f4f6;
+}
+marquee{
+    margin-top: 35%;
+}
+/* ImageGallery.css */
+.hovered {
+    transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Add more styles as needed */
+  

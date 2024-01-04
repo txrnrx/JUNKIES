@@ -1,0 +1,31 @@
+
+
+.footer-container {
+  background-image: url(../image/fdb21c0e4f3dbb6ccd9a63c68fce8645.gif);
+  color: #ccc;
+  padding: 40px;
+  transition: background-image 0.5s;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 8%;
+}
+
+.footer-container:hover {
+  background-image: url(../image/a1.jpg);
+  background-size: cover;
+}
+
+.footer-content {
+
+  margin: 0 auto;
+}
+
+.keywords {
+  margin-top: 10px;
+}
+
+.keywords span {
+  margin: 0 10px;
+  font-weight: bold;
+  text-shadow: 0 0 10px #afbbe7;
+}

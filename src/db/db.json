@@ -1,0 +1,44 @@
+{
+  "user": [
+    {
+      "username": "txrnrx",
+      "password": "12345",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "productname": [
+        "LINZER COOKIES",
+        null
+      ],
+      "imageUrl": [
+        "../assets/image/Default_SINGLE_BIG_ROUND_LINZER_COOKIE_WHERE_THE_INSIDE_IS_FI_0_a1211dfb-e171-4327-9716-f248990f8a68_0.png",
+        null
+      ],
+      "id": 1
+    },
+    {
+      "productname": [
+        "GINGERBREAD COOKIES",
+        null
+      ],
+      "imageUrl": [
+        "../assets/image/pngtree-gingerbread-man-cookie-cartoon-transparent-png-image_9132939.png",
+        null
+      ],
+      "id": 2
+    },
+    {
+      "productname": [
+        "LINZER COOKIES",
+        null
+      ],
+      "imageUrl": [
+        "../assets/image/Default_SINGLE_BIG_ROUND_LINZER_COOKIE_WHERE_THE_INSIDE_IS_FI_0_a1211dfb-e171-4327-9716-f248990f8a68_0.png",
+        null
+      ],
+      "id": 3
+    }
+  ]
+}
