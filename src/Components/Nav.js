@@ -16,15 +16,15 @@ function Navbar() {
 {/* 
         <li>
           <Link to="/login">Login</Link>
-        </li> */}
+        </li>  */}
 
-        {/* <li>
+        <li>
           <Link to="/register">Register </Link>
-        </li> */}
+        </li> 
 
         {/* <li>
           <Link to="/user">User </Link>
-        </li> */}
+        </li>  */}
         <li>
           <Link to="/add">Login </Link>
         </li>
