@@ -18,7 +18,7 @@ public class UserController {
     @Autowired
     private UserRepository userRepo;
 
-    @PostMapping("/user")
+    @PostMapping("/register")
     public User newUser(@RequestBody User newUser){
         System.out.println(newUser.getName());
         User savedUser = userRepo.save(newUser);
@@ -52,7 +52,7 @@ public class UserController {
         }
     }
 
-    @PutMapping("/user/{id}")
+    @PutMapping("/update/{id}")
     User updateUser(@RequestBody User newUser, @PathVariable Long id){
         return userRepo.findById(id)
                 .map(user -> {
@@ -63,7 +63,7 @@ public class UserController {
                 }).orElseThrow(()->new UserNotFoundException(id));
     }
 
-    @DeleteMapping("/user/{id}")
+    @DeleteMapping("/delete/{id}")
     String deleteUser(@PathVariable Long id){
         if(!userRepo.existsById(id)){
             throw new UserNotFoundException(id);
@@ -72,7 +72,7 @@ public class UserController {
         return "user with id "+id+" has been deleted success.";
     }
 
-    @PatchMapping("/user/{id}")
+    @PatchMapping("/update/{id}")
 public ResponseEntity<User> patchUser(@RequestBody User partialUser, @PathVariable Long id) {
     return userRepo.findById(id)
             .map(user -> {
@@ -89,4 +89,5 @@ public ResponseEntity<User> patchUser(@RequestBody User partialUser, @PathVariab
             }).orElseThrow(() -> new UserNotFoundException(id));
 }
 }
+
 
